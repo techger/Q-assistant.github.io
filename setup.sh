@@ -30,5 +30,6 @@ make build
 make build_skills
 
 echo "==========================================================="
-echo "Run: docker-compose -f ./infrastructure/docker-compose.yaml"
+echo "Run: docker-compose -f ./infrastructure/docker-compose.yaml up"
+echo "When all services are up:"
 echo "Run: ./spawn.sh"
