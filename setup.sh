@@ -20,6 +20,9 @@ curl https://raw.githubusercontent.com/Q-assistant/documentation/master/Makefile
 curl https://raw.githubusercontent.com/Q-assistant/documentation/master/spawn.sh -o ./spawn.sh
 curl -o- https://raw.githubusercontent.com/Q-assistant/documentation/master/term.sh -o ./term.sh
 
+chmod +x ./spawn.sh
+chmod +x ./term.sh
+
 # Build services
 make build
 
