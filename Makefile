@@ -1,4 +1,4 @@
-build: build_sessions build_identity build_dialog build_expression build_cli cp_files
+build: build_sessions build_identity build_dialog build_expression build_cli
 
 build_sessions:
 	@echo "building service: sessions"
@@ -27,6 +27,3 @@ build_skills:
 	@echo "building skill: weather"
 	@cd skills/weather && make build
 
-cp_files:
-	@cp dialog/.env dialog/bin/.env
-	@cp expression/.env expression/bin/.env
