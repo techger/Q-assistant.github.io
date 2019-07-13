@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/Q-assistant/documentation/master/Makefile
 
 # Download script that is able to spawn all the services and skills
 curl https://raw.githubusercontent.com/Q-assistant/documentation/master/spawn.sh -o ./spawn.sh
-curl -o- https://raw.githubusercontent.com/Q-assistant/documentation/master/term.sh -o ./term.sh
+curl https://raw.githubusercontent.com/Q-assistant/documentation/master/term.sh -o ./term.sh
 
 chmod +x ./spawn.sh
 chmod +x ./term.sh
