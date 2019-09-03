@@ -7,7 +7,7 @@ tags: [setup]
 
 Install the dependencies:  
 
-- [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/){:target="_blank"}
 - ```bash git clone git@github.com:Q-assistant/infrastructure.git```
 
 Install the CLI:  
