@@ -23,17 +23,13 @@ Click on the project ID link.
 
 1. go to IAM & admin
 2. click on service accounts
-3. click on "+ CREATE SERVICE ACCOUNT" at the top
-4. give it a name
-5. click on the create button  
-![alt text](https://q-assistant.github.io/uploads/doc/04.png)
-6. select a role, type dialogflow in the filter
-7. select Dialogflow API Admin
-8. repeat step 6 and select Dialogflow API Client  
-![alt text](https://q-assistant.github.io/uploads/doc/05.png)
-9. click on "+ CREATE KEY", choose key type JSON and click "CREATE".  
+3. click on "+ CREATE SERVICE ACCOUNT" at the top  
+4. set name ![alt text](https://q-assistant.github.io/uploads/doc/04.png)   
+5. set permissions ![alt text](https://q-assistant.github.io/uploads/doc/05.png)
+6. create a key ![alt text](https://q-assistant.github.io/uploads/doc/06.png)
+   choose key type JSON and click "CREATE".  
    This downloads the service account json file.  
-![alt text](https://q-assistant.github.io/uploads/doc/06.png)
+
 
 ### Running the docker containers
 Make sure the infrastructure is running by executing: ```cd ./infrastructure && docker-compose up```.  
