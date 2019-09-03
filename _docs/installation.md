@@ -8,7 +8,8 @@ tags: [setup]
 Install the dependencies:  
 
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/){:target="_blank"}
-- ```git clone git@github.com:Q-assistant/infrastructure.git```
+- Infrastructure: ```git clone git@github.com:Q-assistant/infrastructure.git```
+- Audio libraries: ```apt-get update && apt-get install libasound2-dev portaudio19-dev```  
 
 Install the CLI:  
 
