@@ -47,7 +47,7 @@ During the configuration the following questions will be asked:
   Can be found in the General tab of your agent settings.  
 
 - **Path to Google Service json file**  
-  enter the path of the service json file created above: eg.  /home/edwin/Downloads/q-dev-nbfhfv-46b9a7163674.json
+  Enter the path of the service json file created above: eg.  /home/edwin/Downloads/q-dev-nbfhfv-46b9a7163674.json
    
 **Speech settings, these all have a default value.**  
 
