@@ -12,8 +12,10 @@ Install the dependencies:
 
 Install the CLI:  
 
-Download the latest release [here](https://github.com/Q-assistant/cli/releases).
+Download the latest release [here](https://github.com/Q-assistant/cli/releases){:target="_blank"}.
 ```bash
 tar xvfz ./linux_amd64.tar.gz  
 mv q /usr/local/bin/q
 ```
+
+Verify by running ```bash q version```, it should show the logo and installed version.  
