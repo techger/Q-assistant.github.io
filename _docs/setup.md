@@ -33,7 +33,7 @@ During the configuration the following questions will be asked:
 **Enter latitude and longitude:**  
 This is used for location services. Try to get the most accurate coordinates as possible. 
 
-**Google Project ID**
+**Google Project ID**  
 Can be found in the General tab of your agent settings.  
 
 **Google Credentials**
