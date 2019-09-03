@@ -10,13 +10,19 @@ tags: [setup]
 ### Configure Dialogflow  
 Create a dialogflow account or login: [https://console.dialogflow.com](https://console.dialogflow.com ){:target="_blank"}  
 
-![alt text](https://q-assistant.github.io/uploads/doc/02.png "q version")
+![alt text](https://q-assistant.github.io/uploads/doc/02.png)
   **Default Language**: "English - en"  
   **Default Time Zone**: your timezone  
-  **Google Project**: "Create a new Google project"  
+  **Google Project**: "Create a new Google project" 
+ 
+#### Downloading IAM file
+![alt text](https://q-assistant.github.io/uploads/doc/03.png)  
+Select your agent and click the cog icon next to it.  
+In the General tab there is a section "GOOGLE PROJECT",  
+Click on the service account link.  
 
 ### Running the docker containers
-- Make sure the infrastructure is running by executing: ```cd ./infrastructure && docker-compose up```.  
+Make sure the infrastructure is running by executing: ```cd ./infrastructure && docker-compose up```.  
 
 ### Configure Q
 Run ```q system configure``` and answer the questions.  
