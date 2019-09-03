@@ -5,15 +5,15 @@ author: edwin
 tags: [setup]
 ---
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Install the dependencies:  
 
+- [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- ```bash git clone git@github.com:Q-assistant/infrastructure.git```
+
+Install the CLI:  
+
+Download the latest release [here](https://github.com/Q-assistant/cli/releases).
 ```bash
-bundle install
+tar xvfz ./linux_amd64.tar.gz  
+mv q /usr/local/bin/q
 ```
-
-Run the following to generate your site:
-```bash
-bundle exec jekyll serve
-```
-
-You can find more on [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
