@@ -64,4 +64,4 @@ en-US-Wavenet-D
 0
 
 To customize it go to [https://cloud.google.com/text-to-speech/](https://cloud.google.com/text-to-speech/).  
-Configure the voice to your liking and copy the settings 
+Configure the voice to your liking and copy the settings. 
