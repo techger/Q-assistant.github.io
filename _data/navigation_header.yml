@@ -11,13 +11,7 @@ left:
     url: /blog/
 
   - title: Changelogs
-    dropdown:
-
-      - title: Timeline Style
-        url: /changelog-timeline/
-
-      - title: Post Style
-        url: /changelog-posts/
+    url: /changelog-timeline/
 
 
 # Navbar right menu navigation links
@@ -27,10 +21,6 @@ right:
   - title: Changelog
     url: /changelog-timeline/
     button: primary-outline
-
-  - title: Contact
-    url: /contact/
-    button: success
 
   # - title: Changelog
   #   url: /contact/
