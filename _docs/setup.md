@@ -30,27 +30,27 @@ Run ```q system configure``` and answer the questions.
 ### Settings
 During the configuration the following questions will be asked:  
 
-**latitude and longitude:**  
-This is used for location services. Try to get the most accurate coordinates as possible. 
+- **latitude and longitude:**  
+  This is used for location services. Try to get the most accurate coordinates as possible. 
 
-**Google Project ID**  
-Can be found in the General tab of your agent settings.  
+- **Google Project ID**  
+  Can be found in the General tab of your agent settings.  
 
-**Google Credentials**
+- **Google Credentials**
   
    
 **Speech settings, these all have a default value.**  
 
-**Google TTP Language Code**  
+- **Google TTP Language Code**  
 en_US
 
-**Google TTP Voice Name**  
+- **Google TTP Voice Name**  
 en-US-Wavenet-D  
 
-**Google TTP Voice Speed**  
+- **Google TTP Voice Speed**  
 1  
 
-**Google TTP Voice Pitch**  
+- **Google TTP Voice Pitch**  
 0
 
 To customize it go to go to [https://cloud.google.com/text-to-speech/](https://cloud.google.com/text-to-speech/).  
