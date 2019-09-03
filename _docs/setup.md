@@ -5,10 +5,11 @@ author: sara
 tags: [setup]
 ---
 
-## Steps
-Create a dialogflow account or login: [https://console.dialogflow.com](https://console.dialogflow.com ){:target="_blank"} 
+## Steps 
 
 ### Configure Dialogflow  
+Create a dialogflow account or login: [https://console.dialogflow.com](https://console.dialogflow.com ){:target="_blank"}  
+
 ![alt text](https://q-assistant.github.io/uploads/doc/02.png "q version")
   **Default Language**: "English - en"  
   **Default Time Zone**: your timezone  
