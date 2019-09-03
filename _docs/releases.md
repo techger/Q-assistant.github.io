@@ -1,8 +1,7 @@
 ---
 title: Releases
 subtitle: This document lists the latest stable releases
-author: edwin
-tags: [release, version, installation]
+tags: [release, version]
 ---
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/q-assistant/cli?label=cli&style=flat-square&sort=semver)  

@@ -1,8 +1,7 @@
 ---
 title: Installation
 subtitle: This document covers the setup of Q
-author: edwin
-tags: [setup]
+tags: [installation, setup]
 ---
 
 ### Install the dependencies  

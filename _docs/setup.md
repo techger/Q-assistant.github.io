@@ -1,8 +1,7 @@
 ---
 title: Setup
 subtitle: This document covers the setup and options of Q
-author: sara
-tags: [setup]
+tags: [setup, installation]
 ---
 
 ## Steps 
