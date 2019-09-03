@@ -18,4 +18,4 @@ tar xvfz ./linux_amd64.tar.gz
 mv q /usr/local/bin/q
 ```
 
-Verify by running ```bash q version```, it should show the logo and installed version.  
+Verify by running ```q version```, it should show the logo and installed version.  
