@@ -5,13 +5,13 @@ author: edwin
 tags: [setup]
 ---
 
-Install the dependencies:  
+### Install the dependencies:  
 
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/){:target="_blank"}
 - Infrastructure: ```git clone git@github.com:Q-assistant/infrastructure.git```
 - Audio libraries: ```apt-get update && apt-get install libasound2-dev portaudio19-dev```  
 
-Install the CLI :  
+### Install the CLI :  
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/q-assistant/cli?sort=semver)
 
