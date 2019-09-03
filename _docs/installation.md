@@ -11,7 +11,9 @@ Install the dependencies:
 - Infrastructure: ```git clone git@github.com:Q-assistant/infrastructure.git```
 - Audio libraries: ```apt-get update && apt-get install libasound2-dev portaudio19-dev```  
 
-Install the CLI:  
+Install the CLI :  
+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/q-assistant/cli)
 
 Download the latest release [here](https://github.com/Q-assistant/cli/releases){:target="_blank"}.
 ```bash
