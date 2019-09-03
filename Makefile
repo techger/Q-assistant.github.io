@@ -1,29 +1,9 @@
-build: build_sessions build_identity build_dialog build_expression build_cli
+current_dir = $(shell pwd)
 
-build_sessions:
-	@echo "building service: sessions"
-	@cd sessions && make build
+default: build
 
-build_identity:
-	@echo "building service: identity"
-	@cd identity && make build
+build:
+	docker run -v $(current_dir):/app -w /app ruby bundle exec jekyll serve
 
-build_dialog:
-	@echo "building service: dialog"
-	@cd dialog && make build
-
-build_expression:
-	@echo "building service: expression"
-	@cd expression && make build
-
-build_cli:
-	@echo "building cli"
-	@cd cli && make build
-
-build_skills:
-	@echo "building skill: q"
-	@cd skills/q && make build
-
-	@echo "building skill: weather"
-	@cd skills/weather && make build
-
+install:
+	docker run -v $(current_dir):/app -w /app ruby bundle install
