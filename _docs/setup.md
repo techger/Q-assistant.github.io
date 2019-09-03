@@ -6,7 +6,7 @@ tags: [setup]
 ---
 
 ## Steps
-Create a dialogflow account or login: https://console.dialogflow.com  
+Create a dialogflow account or login: [https://console.dialogflow.com](https://console.dialogflow.com ){:target="_blank"} 
 
 ### Configure Dialogflow  
 ![alt text](https://q-assistant.github.io/uploads/doc/02.png "q version")
