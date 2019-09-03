@@ -19,3 +19,5 @@ mv q /usr/local/bin/q
 ```
 
 Verify by running ```q version```, it should show the logo and installed version.  
+
+![alt text](https://q-assistant.github.io/uploads/01.png "q version")
