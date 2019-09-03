@@ -1,37 +1,35 @@
 ---
 title: Setup
-subtitle: This document covers the setup and options of theme feature described in the doc title
+subtitle: This document covers the setup and options of Q
 author: sara
 tags: [setup]
 ---
 
-### Site and author details
-Add your site and author details in `_config.yml`:
+## Steps
+1. Create a dialogflow account or login: https://console.dialogflow.com  
+2. Create a new Agent  
+![alt text](https://q-assistant.github.io/uploads/doc/02.png "q version")
+3. Enable google api's: Cloud Text-to-Speech API
+4. Download the google iam file
+3. Make sure the infrastructure is running by executing: ```cd ./infrastructure && docker-compose up```.  
+4. Run ```q system configure``` and answer the questions.  
 
-```yaml
-title:              Docs
-description:        Documentation Jekyll theme.
-lang:               en
+## Settings
+During the configuration the following questions will be asked:  
 
-# Site subpath, e.g. /blog
-baseurl:            ""
+**Enter latitude and longitude:**  
+This is used for location services. Try to get the most accurate coordinates as possible. 
 
-# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
+**Google Project ID**
 
-# Site base hostname & protocol, e.g. http://example.com
-url:                "https://docs.jekyll.plus"
+**Google Credentials**
 
-# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:      
+**Google TTP Language Code**
 
-# Default author settings
-author:
-    name:           Pete Seth
-    title:          Lead Developer  
-    avatar:         avatar-tom.png
-```
+**Google TTP Voice Name**
 
-### Update favicon
+**Google TTP Voice Speed**
 
-You can find the current favicon (favicon.png) inside the theme `/uploads/` directory, just replace it with your new favicon.
+**Google TTP Voice Pitch**
+
+
