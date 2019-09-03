@@ -33,10 +33,14 @@ author:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
+    edwin:
+      name:         Edwin Luijten
+      title:        Lead Developer
+      avatar:       avatar-edwin.png
     marco:
       name:         Marco Brotas
       title:        Lead Developer
-      avatar:       avatar-john.png
+      avatar:       avatar-q.png
 
 # Social icons displayed in footer
 social:
