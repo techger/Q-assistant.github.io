@@ -9,6 +9,9 @@ tags: [setup]
 1. Create a dialogflow account or login: https://console.dialogflow.com  
 2. Create a new Agent  
 ![alt text](https://q-assistant.github.io/uploads/doc/02.png "q version")
+  1. Default Language, select "English - en"
+  2. Default Time Zone, select your timezone
+  3. Google Project, Select "Create a new Google project"
 3. Enable google api's: Cloud Text-to-Speech API
 4. Download the google iam file
 3. Make sure the infrastructure is running by executing: ```cd ./infrastructure && docker-compose up```.  
