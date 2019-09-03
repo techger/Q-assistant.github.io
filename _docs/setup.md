@@ -30,7 +30,7 @@ Run ```q system configure``` and answer the questions.
 ### Settings
 During the configuration the following questions will be asked:  
 
-**Enter latitude and longitude:**  
+**latitude and longitude:**  
 This is used for location services. Try to get the most accurate coordinates as possible. 
 
 **Google Project ID**  
