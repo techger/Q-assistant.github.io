@@ -7,6 +7,14 @@
   - installation
   - setup
 
-- title: Help
+- title: Cli
   docs:
-  - support
+    - cli
+
+- title: Services
+  docs:
+    - dialog
+    - session
+    - identity
+    - expression
+    - locator
