@@ -14,7 +14,7 @@
 - title: Services
   docs:
     - dialog
-    - session
+    - sessions
     - identity
     - expression
     - locator
