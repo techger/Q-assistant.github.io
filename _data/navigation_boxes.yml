@@ -1,11 +1,16 @@
 # Boxes include navigation
 
 - title: Getting Started
-  desc: Get started fast with installation and theme setup instructions
+  desc: Get started fast with installation and setup instructions
   icon: cog
   doc: installation
 
 - title: Skills
-  desc: Lean about skills, using and developing them
+  desc: Learn about skills, using and developing them
   icon: settings
+  doc: hero
+
+- title: Services
+  desc: Lean about what each services is responsible for
+  icon: server
   doc: hero
