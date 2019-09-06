@@ -4,7 +4,9 @@ subtitle: This document describes the functionality of the Identity service
 tags: [service, identity]
 ---
 
-_this service is a work in progress_.  
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/q-assistant/identity?sort=semver)  
+
+_This service is a work in progress_.  
 
 The Identity service is the service where the Dialog service asks the identity of a user.  
 An identity can be detected by a tag `[identity=edwin]` in the text command, or via audio.  
