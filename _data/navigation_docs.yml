@@ -10,7 +10,9 @@
 - title: Cli
   docs:
     - cli
-
+- title: SDK
+  docs:
+    - sdk
 - title: Services
   docs:
     - dialog

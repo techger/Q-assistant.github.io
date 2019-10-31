@@ -4,7 +4,7 @@ subtitle: This document describes the functionality of the Identity service
 tags: [service, identity]
 ---
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/q-assistant/identity?sort=semver)  
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/q-assistant/identity?sort=semver&style=for-the-badge)  
 
 _This service is a work in progress_.  
 
