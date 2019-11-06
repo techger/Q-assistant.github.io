@@ -5,7 +5,7 @@ tags: [sdk, commands]
 
 Skills can be triggered by a dialog.
 
-{% highlight go %}
+```go
 s := sdk.New(&sdk.Config{
 		Skill:    "echo",
 		Version:  version,
@@ -20,4 +20,3 @@ s := sdk.New(&sdk.Config{
         },
 })
 ```
-{% endhighlight %}
