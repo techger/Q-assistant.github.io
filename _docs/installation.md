@@ -16,7 +16,7 @@ tags: [installation, setup]
 
 ### Agents
 Agents take care of the installation process of components and skills.
-Install an agent that will run a component(s) or skill(s).  
+Install 1 agent per device to be managed.  
 
 *Download*
 ```bash
