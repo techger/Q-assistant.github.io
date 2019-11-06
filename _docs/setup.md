@@ -5,6 +5,13 @@ tags: [setup, installation]
 ---
 
 ## Steps 
+### Enable API's & Services
+Login to [https://console.cloud.google.com](https://console.cloud.google.com ){:target="_blank"}.  
+Go to API's & Services [https://console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library ){:target="_blank"}.  
+
+Enable:
+- Cloud Text-to-Speech API  
+- Dialogflow API  
 
 ### Configure Dialogflow  
 Create a dialogflow account or login: [https://console.dialogflow.com](https://console.dialogflow.com ){:target="_blank"}  
@@ -20,7 +27,7 @@ Select your agent and click the cog icon next to it.
 In the General tab there is a section "GOOGLE PROJECT",  
 Click on the project ID link.  
 
-1. go to IAM & admin
+1. go to IAM & admin [https://console.cloud.google.com/iam-admin/iam](https://console.cloud.google.com/iam-admin/iam ){:target="_blank"}
 2. click on service accounts
 3. click on "+ CREATE SERVICE ACCOUNT" at the top  
 4. set name ![alt text](https://q-assistant.github.io/uploads/doc/04.png)   
