@@ -12,7 +12,7 @@ tags: [installation, setup]
 1. The central server needs a fixed IP.  
 1. Install docker.  
 2. Run: ```docker-compose up -d```  
-3. Go to http://localhost:8500/ to see Consul's ui.  
+3. Go to http://{{server-ip}}:8500/ to see Consul's ui.  
 
 ### Agents
 Agents take care of the installation process of components and skills.
